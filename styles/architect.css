@@ -142,6 +142,45 @@ nav li a {
   line-height: 26px; /* 162.5% */
 }
 /* ------------- */
+/* features styles */
+/* ------------- */
+/* ------------- */
+.features {
+  display: flex;
+  margin-top: 130px;
+  gap: 100px;
+}
+.feature-content .card {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.features .section-title {
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.ten-years-badge {
+  border-radius: 8px;
+  background: #ff900e;
+  color: #fff;
+  text-align: center;
+  width: 342px;
+  padding: 40px;
+}
+.ten-years-badge h2 {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+}
+.ten-years-badge p {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
 /* facts styles */
 /* ------------- */
 .facts-card-container {
